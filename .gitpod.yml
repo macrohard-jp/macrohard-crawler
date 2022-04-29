@@ -1,0 +1,12 @@
+image:
+  file: .gitpod.Dockerfile
+tasks:
+  - init: poetry install
+vscode:
+  extensions:
+    # Python
+    - ms-python.python
+    - njpwerner.autodocstring
+    - almenon.arepl
+    # TOML
+    - bungcip.better-toml
